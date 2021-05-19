@@ -1,0 +1,7 @@
+CREATE DATABASE ex1_4 DEFAULT CHARACTER SET utf8 ;
+
+GRANT ALL ON ex1_4.* TO 'lovro'@'localhost' IDENTIFIED BY 'vox';
+GRANT ALL ON ex1_4.* TO 'lovro'@'127.0.0.1' IDENTIFIED BY 'vox';
+
+
+sifra ''mor245''

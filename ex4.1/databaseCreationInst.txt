@@ -30,3 +30,5 @@ CREATE TABLE Profile (
   REFERENCES users (user_id)
   ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+After creation, users have to manualy be inserted into users table.

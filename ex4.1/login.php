@@ -59,15 +59,6 @@ if (isset($_POST['email']) && isset($_POST['pass'])) {
 <input type="submit" onclick="return doValidate();" value="Log In">
 <input type="submit" name='cancel' value="Cancel">
 </form>
-<p>
-For an account and password hint, view source and find a password hint and account
-in the HTML comments.
-<!-- Hint:
-The account is umsi@umich.edu. 
-The password is the three character name of the 
-programming language used in this class (all lower case) 
-followed by 123. -->
-</p>
 <script type="text/javascript">
 function doValidate() {
     console.log('Validating...');
